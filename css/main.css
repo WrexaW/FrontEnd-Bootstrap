@@ -1,0 +1,333 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("../fonts/Vazir.eot");
+  src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Vazir.woff2") format("woff2"),
+    url("../fonts/Vazir.woff") format("woff"),
+    url("../fonts/Vazir.ttf") format("truetype");
+
+}
+body {
+  font-family: "Vazir" !important;
+  background-color: #000000;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 1.8 !important;
+}
+
+.bg-grrn {
+  color: #66b933;
+}
+
+.bg-G {
+  background-color: #66b933;
+}
+.bg-F {
+  color: #fff;
+}
+.bg-black {
+  color: #1a1a1a;
+}
+
+.bg-K {
+  background-color: #1a1a1a;
+}
+.bg-blue {
+  color: #9baceb;
+}
+
+.bg-B {
+  background-color: #9baceb;
+}
+
+.game-nav {
+  color: #66b933;
+  font-size: 2rem;
+  padding-left: 50px;
+}
+.hr-nav {
+  color: #66b933;
+}
+.i-nav {
+  padding-left: 20px;
+  color: #fff;
+}
+.i-nav:hover {
+  color: #66b933;
+}
+.font-nav {
+  font-size: 1.5rem;
+}
+.font-nav:hover {
+  color: #66b933;
+  padding-top: 5px;
+}
+
+/* ////////////////// */
+/* تیتر */
+.black {
+  background-color: #1a1a1a86;
+}
+.rexa {
+  align-items: center;
+  font-size: 0.7rem;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+}
+.rexa p {
+  padding-top: 15px;
+}
+.wrexaw {
+  transition: 1s;
+}
+.wrexaw:hover {
+  transform: translateY(7px);
+  color: #66b933;
+  background-color: #000000;
+  border-radius: 50%;
+}
+/*  */
+.rexa-2 {
+  background-color: #1a1a1a;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+}
+.rexa-2 h1 {
+  color: #66b933;
+  padding-top: 30px;
+}
+.rexa-2 p {
+  color: #ffffff;
+}
+.rexa-hr {
+  color: #66b933;
+  margin-top: 15px;
+}
+
+/* /////////////////// */
+/* لبتاپ بخش اول */
+
+#parent-1 {
+  position: relative;
+}
+#parent-2 {
+  position: relative;
+}
+#parent-3 {
+  position: relative;
+}
+.ROG-TITLE {
+  color: #66b933;
+  margin-top: 50px;
+  text-align: left;
+  margin-left: 15px;
+}
+.ROG-TITLE p {
+  color: #fff;
+}
+.ROG-IMG {
+  background-color: #1a1a1a;
+  color: #fff;
+  text-align: left;
+  margin-top: 50px;
+}
+.ROG-IMG img {
+  background-color: black;
+}
+
+.ROG-A {
+  display: flex;
+}
+.ROG-A a {
+  background-color: #66b933;
+  color: black;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  margin-left: 120px;
+}
+.ROG-A p {
+  padding-left: 10px;
+}
+.ROG-T1 {
+  width: 80px;
+  height: 30px;
+  background-color: aqua;
+  color: black;
+  position: absolute;
+  bottom: 510px;
+  right: 260px;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.ROG-T2 {
+  width: 80px;
+  height: 30px;
+  background-color: #66b933;
+  color: black;
+  position: absolute;
+  bottom: 510px;
+  right: 260px;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.ROG-T3 {
+  width: 80px;
+  height: 30px;
+  background-color: #5733b9;
+  color: black;
+  position: absolute;
+  bottom: 510px;
+  right: 260px;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* //////////////////// */
+/* لبتاپ بخش دوم */
+
+.TOF-TITLE {
+  color: #66b933;
+  text-align: left;
+  margin-top: 100px;
+  margin-right: 40px;
+}
+.LOP-1 {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  text-align: left;
+}
+.LOP-2 {
+  background-color: #1a1a1a;
+  color: #fff;
+  text-align: left;
+  margin-top: 65px;
+}
+
+/* ////////////////////// */
+/* Mobile */
+
+.MOB {
+  background-color: #1a1a1a;
+  color: #fff;
+  text-align: left;
+}
+.MOB-HR-TITLE {
+  color: #66b933;
+  margin-top: 120px;
+}
+.MOB-TITLE {
+  color: #66b933;
+  text-align: left;
+  margin-top: 120px;
+  margin-left: 30px;
+}
+.MOB-TITLE p {
+  color: #ffffff;
+  text-align: left;
+}
+.MOB a {
+  color: #66b933;
+}
+.MOB-HR {
+  color: #66b933;
+}
+#p0p {
+  margin-top: 100px;
+}
+/* //////////////////// */
+/* 1فوتر */
+
+.BOG {
+  background-color: #1a1a1a86;
+  text-align: center;
+  align-items: center;
+  color: #4b4b4b;
+  height: 1100px;
+}
+.BOG-title h2 {
+  padding-top: 80px;
+}
+
+.footer-title1 {
+  background: none;
+  align-items: center;
+  margin-top: 100px;
+  color: #fff;
+}
+.footer-title1 img {
+  width: 30%;
+}
+.footer-title1 a {
+  color: #66b933;
+}
+/* /////////////////////// */
+/* فوتر2 */
+
+.BOS {
+  color: #4b4b4b;
+  background-color: #1a1a1a;
+  height: 340px;
+}
+.BOS a {
+  text-decoration: none;
+  padding: 10px 0;
+  color: #4b4b4b;
+}
+.BOS a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+.BOS h6 {
+  color: #ffffff;
+  margin-top: 30px;
+}
+.footer-h5 {
+  color: #66b933;
+  margin-top: 30px;
+  padding-left: 100px;
+  
+}
+
+/* /////////////////// */
+/* بخش جاوا */
+
+.java-x{
+  padding-top: 50px;
+}
+.java-x a{
+
+color: #494949;
+font-size: 3rem;
+padding-left: 20px;
+
+}
+.mybox{
+  transition-duration: 1s;
+  transition-property: width,height;
+}
+.mybox:hover{
+  width: 150px;
+  height: 150px;
+}

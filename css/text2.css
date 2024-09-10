@@ -1,0 +1,221 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot");
+    src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/Vazir.woff2") format("woff2"),
+      url("../fonts/Vazir.woff") format("woff"),
+      url("../fonts/Vazir.ttf") format("truetype");
+  }
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+ }
+body{
+    font-family: "Vazir" !important;
+    background-color: #000000;
+    
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #000000;
+    color: #313131;
+    width: 100%;
+    text-align: center;
+}
+
+
+ h2{
+    padding: 20px 0;
+    font-size: 3rem;
+}
+
+header .progress{
+    width: 100%;
+    height: 10px;
+    background-color: #87af6e;
+}
+
+header .progress .progress-bar{
+    width: 0;
+    height: 100%;
+    background: linear-gradient(to right, rgb(2, 216, 109),  rgb(26, 36, 29));
+}
+
+/* //////////////////// */
+
+.box{
+    position: absolute;
+    top: 450px;
+    right: 40px;
+    padding: 10px;
+    background: #111111;
+    display: flex;
+    align-items: center;
+    border: 1px solid #66b933;
+    border-radius: 30%;
+}
+
+.box a{
+    width: 10px;
+    height:  20px;
+    margin: 5px;
+    cursor: pointer;
+    text-indent: -9999px;
+    border-radius: 100%;
+}
+
+#x{
+    background: #1cb762;
+    color: #000000;
+}
+#blue{
+    background: #0D47A1;
+}
+#green{
+    background: #1B5E20;
+}
+#gray{
+    background: #263238;
+}
+#xx{
+    background: #2a7c15;
+}
+#xxx{
+    background: #646464;
+    color: #000000;
+}
+
+
+/* //////////////////////////// */
+
+
+.sidebar{
+    height: 100vh;
+    position: fixed;
+    left: -200px;
+    top: 0;
+    width: 200px;
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    transition: left .4s ease-in-out;
+    visibility: hidden;
+}
+
+.sidebar.active{
+    left: 0;
+}
+.sidebar .btn{
+    visibility: visible;
+}
+
+.sidebar img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sidebar ul{
+    list-style: none;
+    margin: 50px auto;
+    width: 100%;
+}
+
+.sidebar ul li{
+    text-align: center;
+    border-bottom: .5px solid #66b933;
+    border-top: .5px solid #66b933;
+    transition: background .3s ease-in-out;
+}
+
+.sidebar ul li:hover{
+    background: #66b933;
+}
+
+.sidebar ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 0;
+    display: block;
+}
+
+
+.sidebar .btn{
+    position: absolute;
+    right: -40px;
+    top: 20px;
+    background: #000000;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid #66b933;
+   
+}
+
+.sidebar .btn svg{
+    font-size: 20px;
+    color: #66b933;
+    animation: fa-spin 2s infinite linear;
+}
+
+/* //////////////////////////// */
+
+section{
+    margin-top: 150px;
+    padding: 50px 100px;
+    color: #313131 ;
+    text-align: center;
+}
+section h2{
+    color: #66b933;
+}
+section p{
+    font-size: 1.5rem;
+    line-height: 30px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.to-top{
+    position: fixed;
+    right: 25px;
+    bottom: 15px;
+    background: #66b933;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #000000;
+    opacity: 0;
+    transition: all .4s ease-in-out;
+}
+
+/* //////////////////////////// */
+
+.to-top.active{
+    opacity: 1;
+    bottom: 40px;
+}
+
+.to-top svg{
+    font-size: 30px;
+}
+.box-img img{
+    width: 99%;
+    border-radius: 20px;
+}
